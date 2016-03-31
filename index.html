@@ -1,11 +1,11 @@
-<html lang="en" class=" js csstransitions"><head>
-
+<!DOCTYPE html>
+<html lang="en" class=" js csstransitions">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
 
     <title>SVends</title>
 
@@ -16,21 +16,12 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/component.css">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-    <script src="js/modernizr.custom.js"></script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -144,12 +135,12 @@
         </div>
     </section>
 
-
+    <!--------------HOW-------------------------->
     <section class="no-padding" id="how">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="how-box">
+                    <a href="#" data-toggle="modal" data-target="#qrCodes" class="how-box">
                         <img src="img/how/1.jpg" class="img-responsive" alt="">
                         <div class="how-box-caption">
                             <div class="how-box-caption-content">
@@ -179,7 +170,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="how-box">
+                    <a href="#" data-toggle="modal" data-target="#geolocation" class="how-box">
                         <img src="img/how/3.jpg" class="img-responsive" alt="">
                         <div class="how-box-caption">
                             <div class="how-box-caption-content">
@@ -194,7 +185,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="how-box">
+                    <a href="#" data-toggle="modal" data-target="#wechat" class="how-box">
                         <img src="img/how/4.jpg" class="img-responsive" alt="">
                         <div class="how-box-caption">
                             <div class="how-box-caption-content">
@@ -209,7 +200,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="how-box">
+                    <a href="#" data-toggle="modal" data-target="#gov" class="how-box">
                         <img src="img/how/5.jpg" class="img-responsive" alt="">
                         <div class="how-box-caption">
                             <div class="how-box-caption-content">
@@ -224,7 +215,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="how-box">
+                    <a href="#" data-toggle="modal" data-target="#sustainable" class="how-box">
                         <img src="img/how/6.jpg" class="img-responsive" alt="">
                         <div class="how-box-caption">
                             <div class="how-box-caption-content">
@@ -271,8 +262,93 @@
         </div>
     </section>
 
+    <!------Modals---------->
+    <div id="qrCodes" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Unique QR Codes</h4>
+          </div>
+          <div class="modal-body">
+            <p>By labeling every vendor with a unique QR code we can track previously hard to find vendors.</p>
+          </div>
+          
+        </div>
 
-    
+      </div>
+    </div>
+
+     <div id="geolocation" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">HTML5 Geolocation</h4>
+          </div>
+          <div class="modal-body">
+            <p>By leveraging existing geolocation services, every time a customer scans the street vendors' QR code other customers will be able to see where that street vendor is located.</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="wechat" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">WeChat</h4>
+          </div>
+          <div class="modal-body">
+            <p>Almost every smartphone user in China has WeChat installed, and because WeChat has a built in QR code scanner all the infrastructure to implement our solution is in place. There is no required download, no update, no friction: just open WeChat and scan away.</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="gov" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Government</h4>
+          </div>
+          <div class="modal-body">
+            <p>The Government has created a faction of the police called the ChengGuan just to regulate vendors. However, because there are millions of vendors that move around the city it is impossible for such a small task force to keep track of all the vendors. We will work hand in hand with the ChengGuan to make sure that our solution meets the interest of the Government as well. With the geolocation of every vendor, found by customers scanning the qr code, the Government now has virtual addresses of all vendors. Making it easier to make sure vendors are selling clean food.</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div id="sustainable" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Environment</h4>
+          </div>
+          <div class="modal-body">
+            <p>Allowing customers to rate vendors encourages vendors to keep their carts clean and their food trustworthy. Lets create a cleaner China together.</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

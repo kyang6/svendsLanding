@@ -26,9 +26,9 @@ hr.light {
 
 a {
     color: #69C357;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
 }
 
 a:hover,
@@ -80,9 +80,9 @@ aside {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -275,9 +275,9 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     background: rgba(240,95,64,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
 }
 
 .how-box .how-box-caption .how-box-caption-content {
@@ -335,9 +335,9 @@ header .header-content .header-content-inner p {
     border-color: #fff;
     color: #222;
     background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
 }
 
 .btn-default:hover,
@@ -388,9 +388,9 @@ fieldset[disabled] .btn-default.active {
     border-color: #69C357;
     color: #fff;
     background-color: #69C357;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
 }
 
 .btn-primary:hover,

@@ -80,7 +80,7 @@
                     <h2 class="section-heading">What is SVends?</h2>
                     <hr class="light">
                     <p class="text-faded">SVends is a startup based out of Stanford that is working to make street food vendors in China more trustworthy and accessible. Trust in the integrity of street food is deterring far too many tourists and citizens, we are here to rebuild this trust- to reinvigorate lost cultural dishes.</p>
-                    <a href="#" class="btn btn-default btn-xl">Learn More</a>
+                    <a href="#" data-toggle="modal" data-target="#contactform" class="btn btn-default btn-xl">Learn More</a>
                 </div>
             </div>
         </div>
@@ -131,7 +131,7 @@
             </div>
         </div>
         <div class="col-lg-8 col-lg-offset-2 text-center">
-             <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
+             <a href="#" data-toggle="modal" data-target="#contactform" class="btn btn-primary btn-xl page-scroll">Learn More</a>
         </div>
     </section>
 
@@ -155,7 +155,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="how-box">
+                    <a href="#" data-toggle="modal" data-target="#contactform" class="how-box">
                         <img src="img/how/2.jpg" class="img-responsive" alt="">
                         <div class="how-box-caption">
                             <div class="how-box-caption-content">
@@ -237,7 +237,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>First 100 will recieve beta access and 30 dollar free credit</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada" style="visibility: visible; animation-name: tada;">Sign Up</a>
+                <a href="#" data-toggle="modal" data-target="#contactform" class="btn btn-default btn-xl wow tada" style="visibility: visible; animation-name: tada;">Sign Up</a>
             </div>
         </div>
     </aside>
@@ -347,6 +347,42 @@
 
       </div>
     </div>
+
+    <div id="contactform" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Contact Us</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal" role="form" method="post" action="index.php">
+                <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-5">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-2">
+                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
 
     <!-- jQuery -->
